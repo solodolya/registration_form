@@ -20,6 +20,9 @@ body{
     background-position: center;
     background-size: contain;
     border-radius: 45px 0px 0px 45px;
+    & img{
+        object-fit: cover;
+    }
 }
 
 main{
